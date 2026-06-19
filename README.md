@@ -1,7 +1,6 @@
 # Naive-Bayes-Model-Evaluation
 Naive Bayes Classification – NBA Player Longevity Prediction
 
-
 ## Project Overview
 This project aims to predict whether a drafted NBA player will play for 5 or more years (`target_5yrs`) using an engineered dataset of their rookie-year statistics. We employ a Gaussian Naive Bayes classification model, focusing on identifying key statistical indicators for career longevity and translating these predictions into actionable scouting insights.
 
@@ -35,10 +34,10 @@ Interpretation for our model results:
 These metrics are particularly relevant for scouting:
 
 *   **Precision (Minimize False Positives: 'busts'):** Of all players predicted to play 5+ years, how many actually did? High precision reduces wasted draft picks.
-    *   **Our Model's Precision:** `[precision_score]` (e.g., 0.8302 in an example run)
+    *   **Our Model's Precision:** `0.8302`
 
 *   **Recall (Minimize False Negatives: missed talent):** Of all players who *actually* played 5+ years, how many did the model correctly identify? High recall ensures less missed talent.
-    *   **Our Model's Recall:** `[recall_score]` (e.g., 0.5366 in an example run)
+    *   **Our Model's Recall:** `0.5366`
 
 (Refer to cell `a084b128` for the latest calculated precision and recall values.)
 
